@@ -6,6 +6,7 @@
     "dev": "vite",
     "serve": "vite",
     "build": "vite build",
+    "deploy": "yarn build && node ./scripts/gh-pages.js",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -45,6 +46,7 @@
     "vue-tour": "^2.0.0",
     "vue-video-player": "^5.0.2",
     "vuedraggable": "^2.24.3",
+    "gh-pages": "^5.0.0",
     "vuex": "^3.6.2"
   },
   "devDependencies": {

@@ -38,13 +38,14 @@
                     </el-table-column>
                     <el-table-column prop="address" label="备注">
                     </el-table-column>
-                    <el-table-column fixed="right" label="操作" width="240">
+                    <el-table-column fixed="right" label="操作" width="280" header-align="center">
                         <template #default="scope">
                             <el-button type="text" size="small" icon="el-icon-edit"
                                 @click="handleEdit(scope.row)">编辑</el-button>
                             <el-button type="text" size="small" icon="el-icon-edit">模板</el-button>
                             <el-button type="text" size="small" icon="el-icon-edit">导入</el-button>
                             <el-button type="text" size="small" icon="el-icon-edit">导出</el-button>
+                            <el-button type="text" size="small" icon="el-icon-edit">调用</el-button>
                         </template>
                     </el-table-column>
                 </el-table>
